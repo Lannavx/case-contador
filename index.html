@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador Incrementador</title>
+    <title>Carrinho de Compras</title>
     <link rel="stylesheet" href="src/css/style.css">
-    
+    <link rel="shortcut icon" href="src/img/favicon.ico " type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Contador Incrementador</h1>
-    <div id="value">0</div>
-    <button id="btnIncrease">Incrementar</button>
-    <button id="btnReduce">Decrementar</button>
-    <button id="btnReset">Resetar</button>
+    <h1 id="title">Carrinho de Compras</h1>
+    <main>
+        <div class="container-img">
+            <img src="src/img/coffee-bag.jpg" alt="Saco de café gourmet da Nomi coffee">
+        </div>
+        <div class="product-container">
+            <div>
+                <h1> Nomi Coffee</h1>
+                <p>Keramo Village</p>
+            </div>
+            <div class="product-shop">
+                <div class="shop-count">
+                    <button id="btnReduce">Decrementar</button>
+                    <div id="value">0</div>
+                    <button id="btnIncrease">Incrementar</button>
+                </div>
+                <button id="btnReset">Resetar</button>
+            </div>
+        </div>
+    </main>
     <script src="src/js/script.js"></script>
 </body>
 </html>
